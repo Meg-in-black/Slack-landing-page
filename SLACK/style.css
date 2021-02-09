@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #4a154a;
+    background-image: url(IMAGES/hero.png);
+    background-size: cover;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+img{
+width:100%;
+}
+.container{
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+}
+.flex{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-logo img{
+    height: 140px;
+    width: 140px;
+    object-fit: contain;
+    margin-right: 3rem;
+}
+.nav-items{
+    display: flex;
+    flex: 1;
+    }
+
+.ordered-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ordered-items li{
+    margin-right: 2rem;
+    list-style: none;
+    color: #fff;
+}
+
+
+.nav-item-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item-2 li{
+    margin-right: 2rem;
+    margin-left: 1rem;
+    list-style: none;
+    color: #fff;
+
+}
+
+.nav-item-2 button{
+    margin-right: 2rem;
+    color: #fff;
+    padding-top: 0.5rem;
+ padding-bottom: 0.5rem;
+ padding-left: 1.2rem;
+ padding-right: 1.2rem;
+ font-size: 18px;
+ font-weight: 500;
+ transition: 2s ease;
+ cursor: pointer;
+ }
+.header{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 3rem;
+    
+}
+
+.header h1{
+    font-size: 5rem;
+    margin-top: 2rem;
+    transition: 2s ease;
+    cursor: pointer;
+}
+
+.header button{
+ margin-top: 2rem;   
+ justify-content: center;
+ padding-top: 1rem;
+ padding-bottom: 1rem;
+ padding-left: 2rem;
+ padding-right: 2rem;
+ font-size: 15px;
+ font-weight: 750;
+ color: purple;
+}
+
+.hero img{
+ padding-top: 10rem;
+ transition: 2s ease;
+ cursor: pointer;
+}
